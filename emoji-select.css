@@ -1,0 +1,4 @@
+/* Allow selection of the emoji preview in the bottom row of the emoji picker. */
+div[class^=emojiPicker] > div[class^=inspector] > div[class^=graphicPrimary] > img {
+    user-select: auto;
+}

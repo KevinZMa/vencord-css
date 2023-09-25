@@ -1,0 +1,4 @@
+/* Dims the line numbers column from the ShikiCodeblocks plugin. */
+table.shiki-table > tr > td:first-child {
+    filter: brightness(70%);
+}
